@@ -35,7 +35,7 @@
       controls = new THREE.OrbitControls(camera, renderer.domElement);
 
       const loader = new THREE.GLTFLoader();
-      loader.load('https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Duck/glTF-Binary/Duck.glb', function(gltf) {
+      loader.load('https://raw.githubusercontent.com/marcox55/taza-3d/main/taza.glb', function(gltf) {
         scene.add(gltf.scene);
       }, undefined, function(error) {
         console.error(error);
