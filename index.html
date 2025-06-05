@@ -35,7 +35,7 @@
       controls = new THREE.OrbitControls(camera, renderer.domElement);
 
       const loader = new THREE.GLTFLoader();
-      loader.load('https://github.com/marcox55/taza-3d/blob/70f0382f9ae2ed24aede5c1f9937b69297e37d4f/CUP.glb', function(gltf) {
+      loader.load('https://github.com/marcox55/taza-3d/blob/main/CUP.glb', function(gltf) {
         scene.add(gltf.scene);
       }, undefined, function(error) {
         console.error(error);
